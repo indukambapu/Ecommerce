@@ -1,0 +1,199 @@
+body
+{
+    margin: 0;
+}
+.container
+{
+    margin: auto;
+    width: 1170px;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*header*/
+header
+{
+   overflow: hidden; 
+   padding: 20px 40px;
+   background-color: #85586F;
+   margin-bottom: 0;
+}
+
+header a
+{
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    line-height: 25px;
+    float: left;
+}
+
+header a.logo 
+{  
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F8ECD1;
+    color: #85586F;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+nav
+{
+    float: right;
+}
+
+nav a{
+    font-size: 18px;
+    color: #F8ECD1;
+}
+
+@media screen and (max-width:870px) 
+{
+    header a
+    {
+        float: none;
+        display: block;
+        text-align: left;
+        
+    }
+    header
+    {
+        padding: 0;
+    }
+    a.logo
+    {
+        padding: 8px 3px;
+    }
+    nav
+    {
+        float: none;
+    }    
+}
+
+/*intro*/
+.intro
+{
+    margin-top: 0;
+    background-color: #DEB6AB;
+    padding-bottom:60px ;
+    margin-bottom: 50px;
+}
+.intro-text
+{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    position: relative;
+    top: 70px;
+    color: #85586F;
+}
+.intro img
+{
+    width: 600px;
+    height: 300px;
+    margin-top: 0;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+@media screen and (max-width:870px) {
+    .intro-text
+    {
+        font-size: 20px;
+    }
+    .intro img
+    {
+        width: 200px;
+    }
+}
+
+/*main section*/
+/*categories*/
+.categories
+{
+    background-color: #F8ECD1;
+    padding: 20px;
+    margin: 20px;
+}
+.cat-text
+{
+    width: 70%;
+    text-align: center;
+    color: #85586F;
+    font-size: 30px;
+}
+.cat-text a
+{
+    color: #85586F;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border: #85586F 1px solid;
+    border-radius: 30px;
+}
+.cat-text a:hover
+{
+    background-color: #85586F;
+    color: #F8ECD1;
+}
+.cat-image
+{
+    width: 20%;
+}
+.cat-image img
+{
+    width: 90%;
+    float: right;
+}
+
+/*categories1*/
+.categories1
+{
+    background-color: #F8ECD1;
+    padding: 20px;
+    margin: 20px;
+}
+.cat-image1
+{
+    width: 20%;
+}
+.cat-image1 img
+{
+    width: 90%;
+    float: left;
+}
+.cat-text1
+{
+    width: 70%;
+    text-align: center;
+    color: #85586F;
+    font-size: 30px;
+}
+.cat-text1 a
+{
+    color: #85586F;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border: #85586F 1px solid;
+    border-radius: 30px;
+}
+.cat-text1 a:hover
+{
+    background-color: #85586F;
+    color: #F8ECD1;
+}
+
+
+/*footer*/
+footer
+{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #85586F;
+    color: #F8ECD1;
+    padding: 50px;
+}
